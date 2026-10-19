@@ -1,0 +1,7 @@
+N = int(input("N: "))
+K = 1
+
+while K * K <= N:
+    K += 1
+
+print("Наименьшее число K: ", K)

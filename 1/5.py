@@ -1,0 +1,11 @@
+A = float(input("Введите координату точки A: "))
+B = float(input("Введите координату точки B: "))
+C = float(input("Введите координату точки C: "))
+
+AC = abs(C - A)
+BC = abs(C - B)
+total_sum = AC + BC
+
+print(f"Длина отрезка AC: {AC}")
+print(f"Длина отрезка BC: {BC}")
+print(f"Сумма длин отрезков AC и BC: {total_sum}")
